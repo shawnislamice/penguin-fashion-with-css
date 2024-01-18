@@ -1,78 +1,121 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
+
     /* Header styles starts here */
-    *{
-        overflow: hidden;
-    }
-    header{
+    /* * {
+        overflow-x: hidden;
+    } */
+
+    header {
         margin: 0;
-        padding: 20px;
-        
+        padding: 15px;
+
     }
-    nav{
+
+    nav {
         margin: 0;
         padding: 0;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         display: none;
     }
-    .header-section{
+
+    .header-section {
         margin: 0;
         padding-top: 10px;
         flex-direction: column-reverse;
         gap: 20px;
         padding-bottom: 15px;
     }
-    
-    .header-content h3{
+
+    .header-content h3 {
         font-size: 38px;
     }
-    .header-content h3 span{
+
+    .header-content h3 span {
         font-size: 38px;
     }
-    .header-title br{
+
+    .header-title br {
         display: none;
     }
-    .header-content p{
+
+    .header-content p {
         font-size: 14px;
     }
-    .header-img-content img{
-    
+
+    .header-img-content img {
+
         width: 350px;
         display: block;
-        
+
     }
-    .header-img-content{
+
+    .header-img-content {
         display: block;
         margin: 0 auto;
     }
+
     /* Header styles ends here */
     /* Main styles starts here */
     /* Jacket styles starts here */
-    .women-jacket{
+    .women-jacket {
         margin: 0;
         padding: 15px;
     }
-    .women-jacket-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .women-jacket-container {
+        grid-template-columns: repeat(1, 1fr);
     }
+
+    .women-jacket-card {
+        width: 100%;
+    }
+
     /* Jacket styles ends here */
+    /* Find fit styles starts here */
+    .find-fit {
+        margin: 0;
+        padding: 15px;
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .img-card-content img {
+        width: 100%;
+    }
+    .text{
+        padding: 0;
+    }
+
+    /* Find fit styles ends here */
     /* Main styles ends here */
 }
+
 /* For menu */
-@media screen and (min-width:600px){
-    .menu{
+@media screen and (min-width:600px) {
+    .menu {
         display: none;
     }
 }
+
 /* End Menu */
 /* Tablet Styles */
-@media screen and (min-width:601px) and (max-width:1200px){
-    header{
+@media screen and (min-width:601px) and (max-width:1200px) {
+    header {
         margin: 0;
         padding: 15px;
     }
-    .header-section{
+
+    .header-section {
         margin: 0;
         padding: 0;
         flex-direction: column-reverse;
@@ -81,18 +124,20 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .header-content h3{
+
+    .header-content h3 {
         padding-top: 20px;
-        
+
     }
-    .header-content h3 br{
+
+    .header-content h3 br {
         display: none;
     }
-    .header-content p{
+
+    .header-content p {
         width: 80%;
         padding-bottom: 10px;
         font-size: 24px;
     }
-    
-}
 
+}
