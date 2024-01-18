@@ -139,5 +139,14 @@
         padding-bottom: 10px;
         font-size: 24px;
     }
+    /* Jacket styles starts here */
+    .women-jacket{
+        margin: 0;
+        padding: 15px;
+    }
+    .women-jacket-card{
+        width: 100%;
+    }}
+    /* Jacket styles ends here */
 
 }
