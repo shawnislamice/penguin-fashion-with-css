@@ -1,0 +1,222 @@
+/* Shared Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    object-fit: cover;
+}
+
+video {
+    object-fit: cover;
+}
+
+/* Header styles starts here */
+header {
+    /* max-width: 1440px; */
+    background: #FFFBF0;
+    padding: 40px 135px;
+}
+
+/* Nav styles starts here */
+nav {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 57px;
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #85A019;
+}
+
+.nav-logo img {
+    width: 250px;
+
+}
+
+/* Nav styles ends here */
+/* Header section styles starts here */
+.header-section {
+    max-width: 1440px;
+    padding: 20px 0;
+    padding-bottom: 70px;
+}
+
+.header-content h3 {
+    color: #FABE4C;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.header-content h3 span {
+    color: #363958;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.header-content p {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 360px;
+    padding-bottom: 7px;
+}
+
+.buy-now {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    padding: 14px 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+    transition: all 0.5s;
+}
+
+.buy-now:hover {
+    background-color: red;
+    transform: scale(0.9);
+}
+
+.header-section {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img-content {
+    padding-right: 100px;
+}
+
+/* Header section styles ends here */
+/* Header styles ends here */
+
+/* Main styles starts here */
+/* Jacket styles starts here */
+.women-jacket {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.men-jacket {
+    margin-bottom: 130px;
+}
+
+.women-jacket>h3 {
+    color: #363958;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.women-jacket-card {
+    width: 370px;
+    max-height: 550px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+}
+
+.women-jacket-card .card-img-div img {
+    max-width: 293px;
+    max-height: 293px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.women-jacket-card .card-img-div {
+    border-radius: 20px;
+    background: #F1F1F1;
+}
+
+.jacket-name {
+    color: #363958;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px 0;
+}
+
+.jacket-description {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 8px;
+}
+
+.jacket-price {
+    color: #FABE4C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jacket-price .buy-now {
+    padding-right: 20px;
+
+}
+
+.women-jacket-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 20px;
+}
+
+/* Jacket styles ends here */
+/* Main styles ends here */
